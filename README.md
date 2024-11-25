@@ -1,7 +1,7 @@
-Blind_NoSQL_Injector
+# Blind_NoSQL_Injector
 A Python tool for performing Blind NoSQL injection attacks using regex techniques. It automates the process of data exfiltration in NoSQL databases by guessing values through a time-based or error-based Blind injection method. The tool helps penetration testers efficiently identify and exploit vulnerabilities in web applications relying on NoSQL databases.
 
-Features:
+# Features:
 Performs Blind NoSQL injection attacks using regex-based guessing.
 Supports data exfiltration from NoSQL databases.
 Easy-to-use for pentesters looking to automate the process of finding injectable points.
@@ -20,7 +20,7 @@ Navigate to the directory:
 ```bash
 cd Blind_NoSQL_Injector
 ```
-Modify the necessary variables in the script:
+# Modify the necessary variables in the script:
 
 injected_data: The initial value of the data you're trying to guess.
 charset: A set of characters to test for the injection (e.g., letters, digits, special characters).
@@ -34,7 +34,7 @@ target_url = "http://127.0.0.1/vulnerable-endpoint.php"
 success_indicator = "True"
 data_key = "trackingNum"
 ```
-Run the tool:
+# Run the tool:
 
 ```bash
 python3 Blind_NoSQL_injector.py
@@ -46,7 +46,7 @@ The tool will start exfiltrating data character by character and will print the 
 
 MySecurePassword123...
 
-Usage Tips:
+# Usage Tips:
 Ensure the target web application is vulnerable to Blind NoSQL injection.
 Modify the charset and success_indicator if the default ones are not effective for your target application.
 Use the tool in a controlled environment (e.g., during a penetration test with permission from the target organization).
