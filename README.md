@@ -43,7 +43,9 @@ Example Output:
 The tool will start exfiltrating data character by character and will print the guessed values as they are discovered. For example:
 
 [!] Exfiltrating...
+
 MySecurePassword123...
+
 Usage Tips:
 Ensure the target web application is vulnerable to Blind NoSQL injection.
 Modify the charset and success_indicator if the default ones are not effective for your target application.
