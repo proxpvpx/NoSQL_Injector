@@ -2,11 +2,12 @@
 A Python tool for performing Blind NoSQL injection attacks using regex techniques. It automates the process of data exfiltration in NoSQL databases by guessing values through a time-based or error-based Blind injection method. The tool helps penetration testers efficiently identify and exploit vulnerabilities in web applications relying on NoSQL databases.
 
 # Features:
-Performs Blind NoSQL injection attacks using regex-based guessing.
-Supports data exfiltration from NoSQL databases.
-Easy-to-use for pentesters looking to automate the process of finding injectable points.
-Customizable parameters to adapt to different injection points or web applications.
-Requirements:
+- Performs Blind NoSQL injection attacks using regex-based guessing.
+- Supports data exfiltration from NoSQL databases.
+- Easy-to-use for pentesters looking to automate the process of finding injectable points.
+- Customizable parameters to adapt to different injection points or web applications.
+
+# Requirements:
 Python 3.x
 requests library (can be installed via pip install requests)
 Setup:
