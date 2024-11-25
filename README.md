@@ -43,13 +43,14 @@ python3 Blind_NoSQL_injector.py
 Example Output:
 The tool will start exfiltrating data character by character and will print the guessed values as they are discovered. For example:
 
+```bash
 [!] Exfiltrating...
-
 MySecurePassword123...
+```
 
 # Usage Tips:
-Ensure the target web application is vulnerable to Blind NoSQL injection.
-Modify the charset and success_indicator if the default ones are not effective for your target application.
-Use the tool in a controlled environment (e.g., during a penetration test with permission from the target organization).
-Disclaimer:
+- Ensure the target web application is vulnerable to Blind NoSQL injection.
+- Modify the charset and success_indicator if the default ones are not effective for your target application.
+- Use the tool in a controlled environment (e.g., during a penetration test with permission from the target organization).
+# Disclaimer:
 This tool is intended for educational purposes and should only be used on applications you have explicit permission to test. Unauthorized access to systems is illegal and unethical.
