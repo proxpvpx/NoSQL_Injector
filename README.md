@@ -25,8 +25,6 @@ cd Blind_NoSQL_Injector
 
 injected_data: The initial value of the data you're trying to guess.
 
-charset: A set of characters to test for the injection (e.g., letters, digits, special characters).
-
 target_url: The target web application's vulnerable endpoint.
 
 success_indicator: A string that indicates a successful response from the server.
