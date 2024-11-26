@@ -24,10 +24,15 @@ cd Blind_NoSQL_Injector
 # Modify the necessary variables in the script:
 
 injected_data: The initial value of the data you're trying to guess.
+
 charset: A set of characters to test for the injection (e.g., letters, digits, special characters).
+
 target_url: The target web application's vulnerable endpoint.
+
 success_indicator: A string that indicates a successful response from the server.
+
 data_key: The name of the parameter you're targeting for injection (e.g., "trackingNum").
+
 For example:
 
 ```python
